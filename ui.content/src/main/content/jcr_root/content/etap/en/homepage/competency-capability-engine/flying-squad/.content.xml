@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-24T10:47:59.965+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Flying Squad"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text_1707464741
+                jcr:created="{Date}2019-05-21T09:50:57.922+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:41:54.415+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>After months—even years—of effort, organizations often end up with competency&amp;nbsp; models that are not only too overwhelming for employees to read on top of their&amp;nbsp; already busy workloads, but also nearly impossible for them to understand, much&amp;nbsp; less execute. No wonder companies worldwide are beginning to question the value&amp;nbsp; of their competency models! We’ve spent decades exploring what makes&amp;nbsp; businesses, leaders, and employees effective, and we’ve concluded that it’s time to&amp;nbsp; change the traditional competency model to a more clear, concise, and relevant&amp;nbsp; tool that organizational leaders and their employees will actually read, understand,&amp;nbsp; and apply to their roles. From leadership “competency model” to “capability model” To start, we’ve made a purposeful decision to replace the word “competency” with&amp;nbsp; “capability.” We’ve noticed that many competency models combine elements of&amp;nbsp; both capability and potential. They don’t take into account whether the leader can&amp;nbsp; evolve in a particular area, or if the trait is more innate and harder to develop. For&amp;nbsp; instance, in one model we’ve seen, a competency called “action-oriented” is next to&amp;nbsp; another called “ensures accountability.” The adjective, “action-oriented,” describes a personal trait. Someone can be action-oriented at home, work or wherever they are&amp;nbsp; distinct capability of a leader. Most people don’t focus on ensuring accountability&amp;nbsp; when they aren’t leading. And if they do, they probably drive their friends crazy!&amp;nbsp; While all people can succeed in becoming more capable with time and focus, one&amp;nbsp; person’s potential likely won’t move. Therefore, if you want more of a certain kind&amp;nbsp; of potential, you have to go out and find people who have it. For these reasons,&amp;nbsp; unlike traditional leadership competency model descriptions that refer to both the&amp;nbsp; skill a leader must have and innate personality traits related to that skill, our&amp;nbsp; leadership capability model makes a key distinction between what leaders can do&amp;nbsp; (capabilities) and the personal factors that allow them to develop those skills&amp;nbsp; (potential). From analysis paralysis to action “What does leadership mean for us?”&amp;nbsp; This is the question that most organizations ask themselves when developing or&amp;nbsp; refreshing a traditional leadership competency model. In the process, organizations&amp;nbsp; turn inward, looking deeper within their own organizations, describing who their&amp;nbsp; exceptional leaders are, how they operate, and the values that they hold. By hyper- focusing on a sampling of leaders specific to their organization, organizations may&amp;nbsp; neglect to include the crucial ingredients of effective leadership that exist beyond&amp;nbsp; their own four walls. Furthermore, the world today is chaotic, and leaders need to&amp;nbsp; respond adeptly in a variety of contexts. So why do we continue to focus inwardly&amp;nbsp; rather than on outcomes? A faster method exists that’s designed to more&amp;nbsp; effectively&amp;nbsp; develop leaders into world-class talent and impact business results.&amp;nbsp; From wordy to concise Over the years, we’ve assessed more than 23,000 senior&amp;nbsp; leaders and high potentials across industries, investigating the differences between&amp;nbsp; how leaders operate in different industries and functional specialties. Surprisingly,&amp;nbsp; we found that there was very little that distinguished one type of leader from&amp;nbsp; another. In fact, they were all doing the same things at the core, but the expression&amp;nbsp; of those constructs were tailored to their&amp;nbsp;contexts. If we looked strictly at&amp;nbsp; leadership&amp;nbsp; (as opposed to technical capability), the things that mattered anywhere&amp;nbsp; turned out to matter everywhere, and anything that mattered somewhere mattered&amp;nbsp; everywhere&amp;nbsp;else.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_1707464741>
+            <text_793564291
+                jcr:created="{Date}2019-05-24T10:38:52.956+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:39:08.612+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;i>“Information overload” occurs when the amount of information you have on an issue exceeds your ability to process, understand, and effectively make decisions about the issue. Traditional leadership competency models are notorious for providing too much information, with dozens of categories, competencies, levels of competencies, and proficiencies described in a single model. In addition to the vast size of traditional competency models, organizations can spend countless hours and dollars developing them.&amp;nbsp;&lt;/i>&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_793564291>
+            <image
+                jcr:created="{Date}2019-05-01T20:12:18.972+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:12:27.466+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="flying squad.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-01T20:13:50.972+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:31:36.741+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>This caused us to listen to the world a little differently. We didn’t just rely on our own research. We read the published academic and trade press literature, we watched the leadership industry closely and we listened to what our clients were telling us. As we digested what we heard, we realized that the capabilities described by all these sources were very much aligned to what we were finding in our own assessment work. The key discovery was that we were essentially hearing the same expression in many different dialects. Now, just because we found the same essential content everywhere, we did not conclude that all models are created equal. Far from it. Instead, what we realized is that efforts to define leadership as comprehensively and precisely as possible were leading a lot of the work in the leadership space down the wrong road. The most popular models being sold in the market aimed to be as elaborate and detailed as possible, as though a longer description was a better description. However, we were seeing something different from our clients. We worked with some organizations that started with their own homegrown models, and some of these were very different from what was for sale in the marketplace. These organizations were going entirely in the opposite direction. They were producing models that were lean and simple, and they encompassed not only what leaders would say, but also what leaders might actually use&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

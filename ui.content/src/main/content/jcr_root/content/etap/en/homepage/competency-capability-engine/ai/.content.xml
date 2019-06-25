@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-28T13:19:23.008+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AI/ML"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image
+                jcr:created="{Date}2019-05-01T20:11:17.633+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:11:41.449+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="ai.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-01T20:13:32.802+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-28T13:19:22.990+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>In the real world, the knowledge has some unwelcomed properties −&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Its volume is huge, next to unimaginable.&lt;/li>&#xa;&lt;li>It is not well-organized or well-formatted.&lt;/li>&#xa;&lt;li>It keeps changing constantly.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>AI Technique is a manner to organize and use the knowledge efficiently in such a way that −&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>It should be perceivable by the people who provide it.&lt;/li>&#xa;&lt;li>It should be easily modifiable to correct errors.&lt;/li>&#xa;&lt;li>It should be useful in many situations though it is incomplete or inaccurate.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>AI techniques elevate the speed of execution of the complex program it is equipped with.&lt;/p>&#xa;&lt;p>The science of allowing computers to see. This technology captures and analyzes visual information using a camera, analog-to-digital conversion&amp;nbsp;and&amp;nbsp;digital signal processing. It is often compared to human eyesight, but machine vision isn't bound by biology and can be programmed to see through walls.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+            <text_1929814555
+                jcr:created="{Date}2019-05-20T13:49:25.120+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-21T10:12:11.845+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;h3>Types of artificial intelligence&lt;/h3>&#xa;&lt;p>Arend Hintze, an assistant professor of integrative biology and computer science and engineering at Michigan State University, categorizes AI into four types, from the kind of AI systems that exist today to sentient systems, which do not yet exist. His categories are as follows:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Type 1:&amp;nbsp;Reactive machines. An example is Deep Blue, the&amp;nbsp;chess program that beat Garry Kasparov in the 1990s. Deep Blue can identify pieces on the chess board and make predictions, but it has no memory and cannot use past experiences to inform future ones. It analyzes possible moves --&amp;nbsp;its&amp;nbsp;own and&amp;nbsp;its&amp;nbsp;opponent -- and chooses the most strategic move. Deep Blue and Google's&amp;nbsp;were designed for narrow purposes and cannot easily be applied to another situation.&lt;/li>&#xa;&lt;li>Type 2:&amp;nbsp;Limited memory.&amp;nbsp;These AI systems can use past experiences to inform future decisions. Some of the decision-making functions in self-driving cars are designed this way. Observations inform actions happening in the not-so-distant future, such as a car changing lanes. These observations are not stored permanently.&lt;/li>&#xa;&lt;li>Type 3:&amp;nbsp;Theory of mind.&amp;nbsp;This psychology term refers to the understanding that others have their own beliefs, desires&amp;nbsp;and&amp;nbsp;intentions that impact the decisions they make. This kind of AI does not yet exist.&lt;/li>&#xa;&lt;li>Type 4:&amp;nbsp;Self-awareness.&amp;nbsp;In this category, AI systems have a sense of self, have consciousness. Machines with self-awareness understand their current state and can use the information to infer what others are feeling. This type of AI does not yet exist&amp;nbsp;.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Artificial intelligence (AI) is an area of computer science that emphasizes the creation of intelligent machines that work and react like humans. Some of the activities computers with artificial intelligence are designed for include:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Speech recognition&lt;/li>&#xa;&lt;li>Learning&lt;/li>&#xa;&lt;li>Planning&lt;/li>&#xa;&lt;li>Problem solving&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_1929814555>
+            <chart
+                jcr:created="{Date}2019-05-23T11:25:25.179+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-23T11:25:51.397+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/chart"
+                chartAlt="Chart of AI"
+                chartData="&quot;2017+&quot;, &quot;2018+&quot;, &quot;2019+&quot;, &quot;2020+&quot;, &quot;2021+&quot;&#xa; 357.8, 841.13, 1622.4, 2867.54, 4806.3, 7714.17"
+                chartHeight="400"
+                chartType="bar"
+                chartWidth="500">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </chart>
+            <text_1718057984
+                jcr:created="{Date}2019-05-20T14:13:54.496+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T09:45:31.580+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Research associated with artificial intelligence is highly technical and specialized. The core problems of artificial intelligence include programming computers for certain traits such as:&lt;br>&#xa;&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Knowledge&lt;/li>&#xa;&lt;li>Reasoning&lt;/li>&#xa;&lt;li>Problem solving&lt;/li>&#xa;&lt;li>Perception&lt;/li>&#xa;&lt;li>Learning&lt;/li>&#xa;&lt;li>Planning&lt;/li>&#xa;&lt;li>Ability to manipulate and move objects&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="6"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_1718057984>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

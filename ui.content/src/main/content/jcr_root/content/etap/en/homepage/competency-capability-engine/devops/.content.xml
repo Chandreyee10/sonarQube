@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-24T10:49:00.024+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Devops"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <table_copy jcr:primaryType="nt:unstructured"/>
+            <table_copy_1222204906 jcr:primaryType="nt:unstructured"/>
+            <text_620841805
+                jcr:created="{Date}2019-05-24T10:00:17.545+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:03:25.711+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;h2>&amp;nbsp;&lt;/h2>&#xa;&lt;h2>DevOps gave us an edge&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>&lt;i>“DevOps has helped us do very frequent releases, giving us an edge on time to market. We are now able to make daily product releases as opposed to 6-month releases, and push fixes to our customers in a span of a few hours.”&lt;/i>&lt;/p>&#xa;&lt;p>&lt;i>— Hamesh Chawla, VP of Engineering at Zephyr&lt;/i>&lt;/p>&#xa;&lt;p>&lt;i>&amp;nbsp;Infrastructure as code allowed us to perform 10x more builds without adding a single person to our team&lt;/i>.&amp;nbsp;&lt;/p>&#xa;&lt;p>—&amp;nbsp;&lt;i>Michael Knight, Build Engineer at Atlassian&lt;/i>&lt;/p>&#xa;&lt;p>Qualifications are important, but cultural fit is just as important in the Ruby world. You’re building a team, after all. At its core, DevOps skills combine development and operations to break down silos and encourage a culture of communication. The application process is collaborative in these environments. And while technical chops are essential, candidates must also embrace your company’s community-first viewpoint and identify with your mission and vision.&lt;/p>&#xa;&lt;p>Ask yourself if innovation and forward thinking are important to your business (they probably are). Ideal candidates must be well-versed and educated in Ruby but also up to speed with trends.&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_620841805>
+            <image
+                jcr:created="{Date}2019-05-24T10:00:04.709+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:00:12.309+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="devops.png">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-24T09:57:27.276+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:03:12.406+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>You want your candidates to be just as interested in self-improvement. They must display a desire to stay up to speed on, well, everything. And you want individuals who will drive your application or software to the next level.&lt;/p>&#xa;&lt;p>Below are some examples of required skills and experience levels:&lt;br>&#xa;&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Proficient in high-level script languages such as Python and Ruby&lt;/li>&#xa;&lt;li>Experience administering Linux (Centos, RHEL, Ubuntu) systems&lt;/li>&#xa;&lt;li>Strong experience building and maintaining production systems on AWS using EC2, RDS, S3, ELB, Cloud Formation, etc.&lt;/li>&#xa;&lt;li>Experience with hardware and software firewalls, IPS, WAF, and additional security layers (LDAP, SSO, 2Factor)&lt;/li>&#xa;&lt;li>Experience with continuous integration, testing, and deployment&lt;/li>&#xa;&lt;li>Understanding of ITIL terminology such as “incident” and “problem”&lt;/li>&#xa;&lt;li>Experience with RDBMS (PostgreSQL and MySQL)&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <title_872294244
+                jcr:created="{Date}2019-05-22T10:23:52.991+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T13:52:13.082+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title=" DevOps vs Agile! Everything You Need To Know"
+                sling:resourceType="wcm/designimporter/components/title"
+                type="h3">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </title_872294244>
+            <text_171958056
+                jcr:created="{Date}2019-05-22T10:21:08.310+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T09:56:08.476+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>DevOps,&amp;nbsp;is a buzzword which has been trending in the industry for quite sometime now. But in-spite of it’s popularity, there is a lot of confusion pertaining to how different it is from Agile. What’s worse? The&lt;i>DevOps vs Agile,&lt;/i>&amp;nbsp;is a never ending debate in the IT industry.&amp;nbsp;&lt;/p>&#xa;&lt;p>If you want to understand how different they are, and which of them is better than the other, then stick around till the end of this ‘DevOps vs Agile’ blog where I will be uncovering a number of industry secrets. But, a synopsis of the differences between them is in the table below.&lt;/p>&#xa;&lt;p>Are you an aspiring DevOps Engineer looking forward to learn all the DevOps tools? Well, if you are, then you should consider&amp;nbsp;&lt;a href=&quot;https://www.edureka.co/devops&quot;>&lt;i>mastering DevOps&lt;/i>&lt;/a>&amp;nbsp;by learning all the top tools. One such tool which must be on your list is Ansible.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_171958056>
+            <table
+                jcr:created="{Date}2019-05-22T10:16:40.507+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T10:20:54.876+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/table"
+                tableData="&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;1&quot; border=&quot;1&quot;>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>&lt;b>Features&lt;/b>&lt;/td>&#xd;&#xa;&lt;td>&lt;b>DevOps&lt;/b>&lt;/td>&#xd;&#xa;&lt;td>&lt;b>Agile&lt;/b>&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Agility&lt;/b>&lt;/td>&#xd;&#xa;&lt;td>Agility in both Development &amp;amp; Operations&lt;/td>&#xd;&#xa;&lt;td>Agility in only Development&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Processes/ Practices&lt;/b>&lt;br>&#xd;&#xa;&lt;br>&#xd;&#xa;&lt;/td>&#xd;&#xa;&lt;td>Involves processes such as CI, CD, CT, etc.&lt;/td>&#xd;&#xa;&lt;td>Involves practices such as Agile Scrum, Agile Kanban, etc.&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Key Focus Area&lt;/b>&lt;/td>&#xd;&#xa;&lt;td>Timeliness&amp;nbsp;&amp;amp; quality have equal priority&lt;/td>&#xd;&#xa;&lt;td>Timeliness&amp;nbsp;is the main priority&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Release Cycles/ Development Sprints&lt;/b>&lt;/td>&#xd;&#xa;&lt;td>Smaller release cycles&amp;nbsp;with immediate feedback&lt;/td>&#xd;&#xa;&lt;td>Smaller release cycles&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Source of Feedback&lt;/b>&lt;/td>&#xd;&#xa;&lt;td>Feedback is from self (Monitoring tools)&lt;/td>&#xd;&#xa;&lt;td>Feedback is from customers&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Scope of Work&lt;/b>&lt;/td>&#xd;&#xa;&lt;td>Agility &amp;amp; need for Automation&lt;/td>&#xd;&#xa;&lt;td>Agility only&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </table>
+        </responsivegrid>
+        <title
+            jcr:lastModified="{Date}2019-05-22T10:54:17.252+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Devops"
+            sling:resourceType="etap/components/structure/title"/>
+    </jcr:content>
+</jcr:root>

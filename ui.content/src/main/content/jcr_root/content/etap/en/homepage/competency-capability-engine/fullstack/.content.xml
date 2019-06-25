@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-24T10:45:46.146+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Full Stack"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image
+                jcr:created="{Date}2019-05-01T20:10:06.995+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:10:23.440+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="fullstack.png">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-01T20:13:09.453+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:21:00.486+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Full stack developers&amp;nbsp;work with both the front and back end of a website or application. They’re familiar with HTML, CSS, JavaScript, and one or more back end languages.&lt;/p>&#xa;&lt;p>As the line between what can be done on the front end vs back end becomes more and more similar, and as things that were previously only possible on the back end become possible on the front end, more developers are becoming what we call “full stack.” A lot of employers (especially agencies who work on different kinds of sites) are looking for developers who know how to work on all the parts of a site, so they can use the best tools for the job regardless of whether it’s technically “front end” or “back end.”&lt;/p>&#xa;&lt;p>Now, contrary to what a lot of people think, “full stack” doesn’t&amp;nbsp;&lt;i>necessarily&lt;/i>&amp;nbsp;mean a developer is actually writing all of a site’s code themselves. Many full stack developers spend the majority of their time in either the front or back end code of a site.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+            <table
+                jcr:created="{Date}2019-05-23T11:10:36.033+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-23T13:30:54.341+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/table"
+                tableData="&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;1&quot; border=&quot;1&quot;>&#xd;&#xa;&lt;tbody>&lt;tr>&lt;td>&lt;h2>Client Software&lt;br>&#xd;&#xa;(Front End)&lt;/h2>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>HTML&lt;/li>&#xd;&#xa;&lt;li>CSS&lt;/li>&#xd;&#xa;&lt;li>Bootstrap&lt;/li>&#xd;&#xa;&lt;li>W3.CSS&lt;/li>&#xd;&#xa;&lt;li>JavaScript&lt;/li>&#xd;&#xa;&lt;li>ES5&lt;/li>&#xd;&#xa;&lt;li>HTML DOM&lt;/li>&#xd;&#xa;&lt;li>JSON&lt;/li>&#xd;&#xa;&lt;li>XML&lt;/li>&#xd;&#xa;&lt;li>jQuery&lt;/li>&#xd;&#xa;&lt;a href=&quot;https://www.w3schools.com/jquery/default.asp&quot;>&lt;/a>&lt;li>&lt;a href=&quot;https://www.w3schools.com/jquery/default.asp&quot;>&lt;/a>Angular&lt;/li>&#xd;&#xa;&lt;li>React&lt;/li>&#xd;&#xa;&lt;li>Backbone.js&lt;/li>&#xd;&#xa;&lt;li>Express.js&lt;/li>&#xd;&#xa;&lt;li>Ember.js&lt;/li>&#xd;&#xa;&lt;li>Redux&lt;/li>&#xd;&#xa;&lt;li>GraphQL&lt;/li>&#xd;&#xa;&lt;li>Meteor.js&lt;/li>&#xd;&#xa;&lt;li>Grunt&lt;/li>&#xd;&#xa;&lt;li>Gulp&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;/td>&#xd;&#xa;&lt;td>&lt;h2>Server Software&lt;br>&#xd;&#xa;(Back End)&lt;/h2>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>PHP&lt;/li>&#xd;&#xa;&lt;li>ASP&lt;/li>&#xd;&#xa;&lt;li>C++&lt;/li>&#xd;&#xa;&lt;li>C#&lt;/li>&#xd;&#xa;&lt;li>Java&lt;/li>&#xd;&#xa;&lt;li>Phyton&lt;/li>&#xd;&#xa;&lt;li>Node.js&lt;/li>&#xd;&#xa;&lt;li>Ruby&lt;/li>&#xd;&#xa;&lt;li>REST&lt;/li>&#xd;&#xa;&lt;li>GO&lt;/li>&#xd;&#xa;&lt;li>SQL&lt;/li>&#xd;&#xa;&lt;li>MongoDB&lt;/li>&#xd;&#xa;&lt;li>Firebase.com&lt;/li>&#xd;&#xa;&lt;li>Sass&lt;/li>&#xd;&#xa;&lt;li>Less&lt;/li>&#xd;&#xa;&lt;li>Parse.com&lt;/li>&#xd;&#xa;&lt;li>PaaS (Azure and Heroku)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;h2>Popular Stacks&lt;/h2>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>LAMP stack: JavaScript - Linux - Apache - MySQL - PHP&lt;/li>&#xd;&#xa;&lt;li>LEMP stack: JavaScript - Linux - Nginx - MySQL - PHP&lt;/li>&#xd;&#xa;&lt;li>MEAN stack: JavaScript - MongoDB - Express - AngularJS - Node.js&lt;/li>&#xd;&#xa;&lt;li>Django stack: JavaScript - Python - Django - MySQL&lt;/li>&#xd;&#xa;&lt;li>Ruby on Rails: JavaScript - Ruby - SQLite - PHP&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;/td>&#xd;&#xa;&lt;td>&lt;h2>Full Stack JavaScript Benefits&lt;/h2>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>Code reuse. Shared libraries, templates, and models.&lt;/li>&#xd;&#xa;&lt;li>Best practice accumulated by 20 years of JavaScript.&lt;/li>&#xd;&#xa;&lt;li>JavaScript is an evolving standard with a bright future.&lt;/li>&#xd;&#xa;&lt;li>Good tutorials. Easy to learn.&lt;/li>&#xd;&#xa;&lt;li>No compilation!!! Faster development.&lt;/li>&#xd;&#xa;&lt;li>Great distribution: npm.&lt;/li>&#xd;&#xa;&lt;li>GitHub repository. Git workflow.&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;h2>Advantages&lt;/h2>&#xd;&#xa;&lt;p>The advantage of being a full stack web developer is:&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>You can master all the techniques involved in a development project&lt;/li>&#xd;&#xa;&lt;li>You can make a prototype very rapidly&lt;/li>&#xd;&#xa;&lt;li>You can provide help to all the team members&lt;/li>&#xd;&#xa;&lt;li>You can reduce the cost of the project&lt;/li>&#xd;&#xa;&lt;li>You can reduce the time used for team communication&lt;/li>&#xd;&#xa;&lt;li>You can switch between front and back end development based on requirements&lt;/li>&#xd;&#xa;&lt;li>You can better understand all aspects of new and upcoming technologies&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;/td>&#xd;&#xa;&lt;td>&lt;h2>Disadvantages&lt;/h2>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;li>The solution chosen can be wrong for the project&lt;/li>&#xd;&#xa;&lt;li>The solution chosen can be dependent on developer skills&lt;/li>&#xd;&#xa;&lt;li>The solution can generate a key person risk&lt;/li>&#xd;&#xa;&lt;li>Being a full stack developer is increasingly complex&lt;/li>&#xd;&#xa;&lt;/ul>&#xd;&#xa;&lt;/td>&#xd;&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        behavior="hide"
+                        width="10"/>
+                </cq:responsive>
+            </table>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

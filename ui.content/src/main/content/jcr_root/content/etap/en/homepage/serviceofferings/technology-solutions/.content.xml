@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-20T12:33:44.865+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Technology Solutions"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text_958846776
+                jcr:created="{Date}2019-05-20T12:16:14.509+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T12:29:25.832+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Here's how Maximum adds value at every step:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>We mitigate risk for our clients with a relentless focus on security&lt;/li>&#xa;&lt;li>We're deeply entrenched in the technology asset market and offer a robust network of buyers, suppliers, and recyclers&lt;/li>&#xa;&lt;li>We strive to provide our clients with a positive return on investment&lt;/li>&#xa;&lt;li>We eliminate the hassle and question marks of navigating the ever-evolving regulations and nuances of the technology industry&lt;/li>&#xa;&lt;li>We assure compliance with well-documented processes that indemnify our clients&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>We're current with all compliance regulations that affect your computers, electronics and all technology assets. From environmental concerns to data privacy and reporting, we take on the burden of ensuring best practices.&amp;nbsp;New equipment deployment ties up valuable resources. Let Maxxum take it off your hands. We can save time, cost, and innumerable headaches.&amp;nbsp;Maxxum is your partner in risk mitigation. We're with you through the entire lifecycle of your computers, electronics and all technology, providing valuable support and guidance during acquisition, disposal, and during any custody change. A solution is a product, a combination of products, services, or a mix of products and services that a vendor, service provider or value added reseller (VAR) will offer to their client. In almost every case, a solution is provided to address the client's specific business problem or other need. For example, an IT solutions company, may recommend a new multi-processor server as the solution to a client's transaction processing bottleneck. Similarly, an outside service provider may be engaged to provide routine servicing and repair services for business computers. This service might be the solution for staffing limitations or other service overhead experienced by the client.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&lt;img src=&quot;https://qph.fs.quoracdn.net/main-qimg-fea75ed7f9c05efb30bc02ea7927ae79&quot;>&lt;/p>&#xa;&lt;p>We help our clients solve complex business issues through applying technology. IT companies, experience is extensive from strategy, through design, implementation, managed services, and upgrades. As an Oracle Platinum Partner and a member of their Partner Advisory Council, we provide a wide range of services that help clients leverage the power of Oracle’s broad suite of technology applications.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_958846776>
+            <image
+                jcr:created="{Date}2019-05-20T12:29:44.894+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T12:30:31.110+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="tech.jfif">
+                <file/>
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-20T12:31:11.156+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T12:33:03.178+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;b>Office Systems&lt;/b>&lt;/p>&#xa;&lt;p>The key to a productive office is having the right equipment in the right location. We help you select the correct printers, multifunction systems, scanners and fax machines for your operation.&lt;/p>&#xa;&lt;p>&lt;b>Production Printing&lt;/b>&lt;/p>&#xa;&lt;p>Central reprographics departments and print-for-pay operations need productive equipment with outstanding image quality and workflow integration. We help you select the right production equipment for your location and back it with fast local service.&lt;/p>&#xa;&lt;p>&lt;b>Managed Print Services&lt;/b>&lt;/p>&#xa;&lt;p>Your existing fleet of laser printers can be managed to reduce costs and extend the life cycle of the devices. We can manage your entire printer fleet, removing the hassle of printer support from your I.T. department while reducing your costs.&lt;/p>&#xa;&lt;p>A Technology Solutions company would be called as a service orientated company. This type of Company focuses on client’s needs and practical solutions in the sector of Information Technology and Business Processing Management field. A technology solutions Company provides Managed Services, Consulting Services, and Web &amp;amp; Graphic Design services.\\&lt;/p>&#xa;&lt;p>If i am a big brick and mortar retail company X and i decide to start an e-commerce business. I will need one or many&amp;nbsp; Technology solutions company to handle various aspects such as&lt;br>&#xa;1. The infrastructure (Servers, dbs, network,&amp;nbsp; other hardware needs etc.)&lt;br>&#xa;2. The systems (Merchandising, listing, payment integration, order management, fraud check etc.)&lt;br>&#xa;3. Ongoing Support&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="6"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

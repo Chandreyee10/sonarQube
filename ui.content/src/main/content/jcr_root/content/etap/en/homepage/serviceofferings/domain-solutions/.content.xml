@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-20T12:12:40.196+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Domain Solutions"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image
+                jcr:created="{Date}2019-05-01T19:56:33.752+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T19:56:43.732+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="domain solutions.png">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-01T19:56:50.019+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T12:10:19.414+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>With its TRACI solution, Bosch brings agricultural and construction machinery into the Internet of Things (IoT). This innovative connectivity solution localizes and seamlessly monitors vehicles, machines as well as accessories and special equipment (referred to as “asset tracing”). This makes it possible to optimize processes and reduce downtimes. With a full package comprising hardware, software and services, TRACI gives companies in the construction and agricultural sectors uncomplicated access to digitalization. Data can therefore be called up from any location using a smartphone, tablet, laptop or desktop PC. Personal data will be processed and provided in an encrypted form only to the extent as defined in the data processing agreement with the customer. Monitoring, control and management of the entire product handling process from receiving to storage to distribution. Operation for distribution and bulk terminals such as refinery off-sites, fuel storage and distribution sites, petrochemical storage, loading facilities and marine, rail &amp;amp; truck loading.&lt;/p>&#xa;&lt;p>The three primary elements demanded from cross domain solutions are:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>Data confidentiality; most often imposed by hardware-enforced one-way data transfer&lt;/li>&#xa;&lt;li>Data integrity: content management using filtering for viruses and malware; content examination utilities; in high-to-low security transfer audited human review&lt;/li>&#xa;&lt;li>Data availability: security-hardened operating systems, role-based administration access, redundant hardware, etc.&lt;/li>&#xa;&lt;/ol>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+            <image_453095052
+                jcr:created="{Date}2019-05-20T12:11:14.113+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T12:11:22.420+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="domain solutions.jfif">
+                <file/>
+            </image_453095052>
+            <text_101764410
+                jcr:created="{Date}2019-05-20T12:12:34.377+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T12:12:40.187+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Cross Domain Solutions (CDS) facilitate exchange of information across networks with varying security protocols. A unified system of hardware and software authenticate manual or automatic access / transfer of information among incompatible security classification levels. A security domain can be defined as a system or multiple systems functioning under a common security policy.&lt;/p>&#xa;&lt;p>Cross Domain Solutions provides strategically cost-effective solution to an array of modern day military and intelligence operations, the flawless functioning of which is contingent on seasonable information sharing. Cross Domain Solutions paves way for transfers prohibited by other rigorous data security approaches. The sensitive data of the sharer is vulnerable to be intercepted or inadvertently revealed and the deployment is pivoted around risk management.&lt;/p>&#xa;&lt;p>A majority of Cross Domain Solution features dedicated software applications running on trusted computing (TC), which serve as a guard in midst of 2 discrete security domains – classified and public data. It only lets data meeting stipulated criteria to move on between domains. The acceptance criteria laid down for approval of legitimate information for inter-domain transfer may be relatively simple (antivirus entrusted with data scan prior to transfer permission from low to highly complex security domains) or complicated (a number of human reviewers vet and sanction high security documents prior to issuance). OWT, data diodes and other one-way data transfer systems are employed for moving data from low security sectors to confidential domains without letting it get tracked in the course of transfer.&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

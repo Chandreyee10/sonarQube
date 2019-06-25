@@ -1,0 +1,33 @@
+.container{
+	text-align:left;
+	padding:1vw;
+}
+#card{
+
+	border-radius:5px;
+	display:inline-block;
+	text-align:center;
+
+	box-shadow: 0 0 8px 4px rgba(0,0,0,0.2);
+    transform-origin: center;
+    transform: scale(1) translateZ(0);
+    transition: transform 200ms linear;
+
+}
+#card:hover{
+
+	transform: scale(1.10) translateZ(0);
+}
+.content {
+    position: relative;
+   	bottom: 0;
+    color:black;
+	text-decoration:none;
+	text-align:center;
+	float:bottom;
+
+}
+.img{
+    border-radius:5px 0;
+	float:top;
+}

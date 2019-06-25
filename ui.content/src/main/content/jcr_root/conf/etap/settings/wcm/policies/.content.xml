@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <etap jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <form-container
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="etap Form"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/etap/components/form/button,/apps/etap/components/form/hidden,/apps/etap/components/form/options,/apps/etap/components/form/text]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-04-24T20:05:36.942+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </form-container>
+                </container>
+            </form>
+        </components>
+    </etap>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <content-default
+                        jcr:description="Policy for editable layout containers"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="etap Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:etap,/apps/etap/components/form/container]"
+                        policyResourceType="wcm/foundation/components/responsivegrid">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="etap/components/content/image"
+                                    type="Images"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2019-04-24T20:05:36.942+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </content-default>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <fd jcr:primaryType="nt:unstructured">
+        <af jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <guideContainer jcr:primaryType="nt:unstructured"/>
+            </components>
+        </af>
+    </fd>
+    <rep:policy/>
+</jcr:root>

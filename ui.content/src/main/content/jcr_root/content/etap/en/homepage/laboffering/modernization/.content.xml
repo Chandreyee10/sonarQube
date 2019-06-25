@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-24T10:43:19.953+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-05-28T13:30:03.088+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Modernization"
+        jcr:uuid="b04e0184-e8eb-48ae-ada4-cc6b04ea7c79"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image
+                jcr:created="{Date}2019-05-01T19:26:33.545+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T11:17:05.043+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="modernization.jfif">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="10"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-01T19:26:53.964+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:26:34.383+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Modernization is seen at the level of economics, as well as the ways in which these traditional approaches are subjected to clinical trials and then standardized, commodified, and mass distributed—such as the curative use of artemesinin (qing hao) for malaria, and the controversial patent of the Neem tree (Azadirachta indica) for its medicinal properties&amp;nbsp;&lt;/p>&#xa;&lt;p>A&amp;nbsp;fourth route has resided in those cases, in which a policy&amp;nbsp;of defensive&amp;nbsp;modernization, initially adopted mainly for the purpose of strengthening the ‘power state,’ was ultimately conducive to democratizing the polity of the country, such as in Japan and South Korea.&amp;nbsp;&lt;b>Modernization theory&lt;/b>&amp;nbsp;is used to explain the process of modernization within societies. Modernization refers to a model of a progressive transition from a 'pre-modern' or traditional&amp;nbsp;to a 'modern' society.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+            <text_1778303377
+                jcr:created="{Date}2019-05-20T11:14:30.044+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-21T11:02:38.318+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>It also looks at internal dynamics while referring to social and cultural structures and the adaptation of new technologies. Modernization theory maintains that traditional societies will develop as they adopt more modern practices. Proponents of modernization theory claim that modern states are wealthier and more powerful and that their citizens are freer to enjoy a higher standard of living. Developments such as new data technology and the need to update traditional methods in transport, communication and production, it is argued, make modernization necessary or at least preferable to the status quo. That view makes critique difficult since it implies that such developments control the limits of human interaction, not vice versa. And yet, seemingly paradoxically, it also implies that human agency controls the speed and severity of modernization. Supposedly, instead of being dominated by tradition, societies undergoing the process of modernization typically arrive at forms of governance dictated by abstract principles.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <chart
+                jcr:created="{Date}2019-05-24T10:27:49.471+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:36:28.267+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/chart"
+                chartData="&quot;USA&quot;, &quot;Russia&quot;, &quot;UK&quot;, &quot;France&quot;, &quot;China&quot;, &quot;India&quot;, &quot;pakistan&quot; &#xa;2017, 1750, 1600, 120, 380&#xa;2018, 4700, 5250, 95, 20, 280, 140, 150, 80&#xa; "
+                chartHeight="350"
+                chartType="line"
+                chartWidth="500">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </chart>
+            <image_871958899
+                jcr:created="{Date}2019-05-24T10:31:13.775+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:31:24.942+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="modernization2.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="11"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image_871958899>
+            <text_1945986192
+                jcr:created="{Date}2019-05-21T11:02:18.760+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-21T11:02:43.098+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>• Conduct regional dialogues to gather input on grid modernization needs and priorities.&lt;/p>&#xa;&lt;p>• Hold annual Grid Modernization Initiative progress summits&lt;/p>&#xa;&lt;p>• Expand technical assistance to states, regions and tribes&lt;/p>&#xa;&lt;p>• Develop partnerships to define and develop regional demonstrations&lt;/p>&#xa;&lt;p>• Issue competitive research funding opportunities (e.g., FOAs and CRADAs)&lt;/p>&#xa;&lt;p>• Engage in technology transfer from DOE programmatic advances&lt;/p>&#xa;&lt;p>• Carry out ongoing peer review&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_1945986192>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

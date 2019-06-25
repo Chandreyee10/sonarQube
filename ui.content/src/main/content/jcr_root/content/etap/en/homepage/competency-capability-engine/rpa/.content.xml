@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-20T13:45:16.270+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="RPA"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text_1059116202
+                jcr:created="{Date}2019-05-20T13:38:28.274+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T13:38:48.189+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;b>R&lt;/b>obotics&amp;nbsp;&lt;b>P&lt;/b>rocess&amp;nbsp;&lt;b>A&lt;/b>utomation(RPA) allows organizations to automate task just like a human being was doing them across application and systems. Robotic automation interacts with the existing IT architecture with no complex system integration required.&lt;/p>&#xa;&lt;p>RPA can be used to automate workflow, infrastructure, back office process which are labor intensive. These software bots can interact with an in-house application, website, user portal, etc. The RPA is a software program which runs on an end user's pc, laptop or mobile device. It is a sequence of commands which are executed by Bots under some defined set of business rules.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2019-05-01T20:10:54.816+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:11:08.524+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="rpa.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="7"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-01T20:13:25.434+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:25:30.290+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&lt;b>R&lt;/b>obotics&amp;nbsp;&lt;b>P&lt;/b>rocess&amp;nbsp;&lt;b>A&lt;/b>utomation(RPA) allows organizations to automate task just like a human being was doing them across application and systems. Robotic automation interacts with the existing IT architecture with no complex system integration required.&lt;/p>&#xa;&lt;p>RPA can be used to automate workflow, infrastructure, back office process which are labor intensive. These software bots can interact with an in-house application, website, user portal, etc. The RPA is a software program which runs on an end user's pc, laptop or mobile device. It is a sequence of commands which are executed by Bots under some defined set of business rules.&lt;/p>&#xa;&lt;p>The main goal of Robotics process automation process to replace repetitive and boring clerical task performed by humans, with a virtual workforce. RPA does not require the development of code, nor does it require direct access to the code or database of the applications.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="5"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+            <text_1764073160
+                jcr:created="{Date}2019-05-20T13:39:33.531+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T13:40:25.789+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;h2>Why Robotic Process Automation?&lt;/h2>&#xa;&lt;p>Consider the following scenario in a typical enterprise&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://www.guru99.com/images/1/032318_1137_RoboticProc1.png&quot;>&lt;img src=&quot;https://www.guru99.com/images/1/032318_1137_RoboticProc1.png&quot; height=&quot;NaN&quot;>&lt;/a>&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>The business climate is ever changing. An enterprise needs to continuously evolve its product, sales, marketing, etc. process to grow and stay relevant&lt;/li>&#xa;&lt;li>A typical enterprise uses multiple and disconnected IT systems to run its operations. With change in Business process, these IT systems are not changed frequently due to budget, timing, and implementation complexity issues. Hence, the business process does not map the technical process mapped in the IT system.&lt;/li>&#xa;&lt;li>To overcome this technical and organization debt human workforce is hired to fill the gap between systems and processes. Example: A company made changes in Sales process such that a mandatory 50% advance is required to confirm the booking of its product. But this is not coded in the IT system yet. A human worker will have to manual check the Invoice and payment details and process the sales order only if 50% advance is made.&lt;/li>&#xa;&lt;/ol>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="7"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_1764073160>
+            <text_1815339981
+                jcr:created="{Date}2019-05-20T13:41:14.193+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T13:44:16.033+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;h2>General Use of RPA&lt;/h2>&#xa;&lt;p>&lt;b>1. Emulates Human Action:&lt;/b>&lt;/p>&#xa;&lt;p>Emulates human execution of the repetitive process using various application and systems.&lt;/p>&#xa;&lt;p>&lt;b>2. Conduct high-volume repeated tasks:&lt;/b>&lt;/p>&#xa;&lt;p>Robotics process automation can easily simulate rekeying of data from one system to another. It performs tasks like data entry, copying, and pasting.&lt;/p>&#xa;&lt;p>&lt;b>3. Perform Multiple Tasks:&lt;/b>&lt;/p>&#xa;&lt;p>Operates multiple and complex tasks across multiple systems. This helps to process transactions, manipulate data and send reports.&lt;/p>&#xa;&lt;p>&lt;b>4. 'Virtual' system integration:&lt;/b>&lt;/p>&#xa;&lt;p>This automation system can transfer data between disparate and legacy systems by connecting them at the user interface level instead of developing new data infrastructure.&lt;/p>&#xa;&lt;p>&lt;b>5. Automated report generation:&lt;/b>&lt;/p>&#xa;&lt;p>Automates the extraction of data to comes up with accurate, effective and timely reports.&lt;/p>&#xa;&lt;p>&lt;b>6. Information validation and auditing:&lt;/b>&lt;/p>&#xa;&lt;p>Resolves and cross-verify data between different systems to validate and check information to provide compliance and auditing outputs.&lt;/p>&#xa;&lt;p>&lt;b>7. Technical debt management:&lt;/b>&lt;/p>&#xa;&lt;p>Helps to reduce technical debt by reducing the gap between systems, preventing the introduction of custom implementations.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="7"
+                        width="5"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_1815339981>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

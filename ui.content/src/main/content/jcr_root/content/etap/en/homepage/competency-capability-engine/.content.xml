@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-23T13:29:28.954+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Competency Capability Engine"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image
+                jcr:created="{Date}2019-05-01T19:09:11.387+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T19:09:24.131+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="competency-capability-engine.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <list
+                jcr:created="{Date}2019-05-23T13:27:43.927+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-23T13:28:28.106+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/list"
+                displayAs="default"
+                limit="8"
+                listFrom="children"
+                orderBy="jcr:title"
+                pageMax="8"
+                parentPage="/content/etap/en/homepage/competency-capability-engine"
+                tagsMatch="any">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                </cq:responsive>
+            </list>
+            <text
+                jcr:created="{Date}2019-05-01T19:09:33.627+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-23T13:29:28.946+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>In an individual it is accepted that an&amp;nbsp;&lt;b style=&quot;font-size: 1rem;&quot;>ability&lt;/b>&amp;nbsp;is the skill or competency to perform a task whether it is physical or mental. An ability is something that is inherent as it is dependent upon the genetic makeup of a person.&lt;/p>&#xa;&lt;p>An ability is therefore an attribute that is either there or not. Organisations do not inherently have abilities that can be exploited. Individuals within an organisation do.&lt;/p>&#xa;&lt;p>A&amp;nbsp;&lt;b>capability&lt;/b>&amp;nbsp;on the other hand is a feature, ability, faculty or process that can be developed or improved. A capability is a collaborative process that can be deployed and through which individual competencies and abilities can be applied and exploited. A capability can refer to an ability that exists in an individual but can be improved upon.&lt;/p>&#xa;&lt;p>The competency capability engine includes the emerging technologies such as IoT, AI, Devops, MySQL, Flying squad etc.,&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+            <text_1280263141
+                jcr:created="{Date}2019-05-20T12:41:05.084+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-23T12:17:06.078+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>When are we going to recognize that innovation should be a real core of our organization’s make-up? With the increasing emphasis on technology within all our organizations we are in need of a radical newly designed Enterprise-wide innovation process.&lt;/p>&#xa;&lt;p>One that is embracing and adapting constantly to all we have been learning about how innovation works and what technology, digital, networks, relationships and social streaming brings that all needs to be fully integrated within this redesign.&lt;/p>&#xa;&lt;p>Innovation requires increasing agility, flexibility and allowing creativity to flourish on a constant, evolving basis. Today, innovation often stays outside the mainstream system and operational structures, often to it’s and the organizations detriment. as it is seen as something that does not fit the ‘norm’. This is today’s innovation problem&lt;/p>&#xa;&lt;p>Innovation needs to be fluid,&amp;nbsp; open, responsive; sometimes reliant on the instinct, hunch or powerful insight that is never ‘predictable’ but suddenly emerges from a collision of events, or random thoughts that lead to a new insight, a game changing one. It is really hard to turn this ‘randomness’ or serendipity into a system but certainly not impossible.&lt;/p>&#xa;&lt;p>How are we going to design our innovation capabilities, competencies or capacity unless we fully recognize the dramatic changes in business that are now underway and what this needs to be addressed, to allow for a more responsive, fluid, agile and adaptive culture, to flourish and respond so as to generate the better innovation of the future we need.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+            </text_1280263141>
+        </responsivegrid>
+    </jcr:content>
+    <iot/>
+    <fullstack/>
+    <blockchain/>
+    <rpa/>
+    <ai/>
+    <no-sql/>
+    <flying-squad/>
+    <devops/>
+</jcr:root>

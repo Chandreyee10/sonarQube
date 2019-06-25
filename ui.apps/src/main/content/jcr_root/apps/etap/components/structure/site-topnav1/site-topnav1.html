@@ -1,0 +1,34 @@
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.all @ categories='etap.boot.foundation'}" />
+
+<style>
+    .navbar {
+      margin-right: 0;
+       margin-left: 0;
+    }
+</style>
+
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark"  width="100%">
+    <div data-sly-use.topnav="topnav.js" style="width: 100%">
+        <table width="100%">
+			<tr>
+				<td width="100%">
+                    <h4  class="navbar-brand">Home</h4>
+				</td>
+
+			</tr>
+		</table>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#ghdNavCollapse" aria-controls="navbarText"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="ghdNavCollapse">
+				<ul class="navbar-nav">
+
+				</ul>
+			</div>
+	</div>
+</nav>

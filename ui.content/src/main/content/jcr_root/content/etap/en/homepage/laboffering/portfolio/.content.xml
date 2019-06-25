@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-28T13:17:53.250+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-05-28T13:30:03.088+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Portfolio/Project Assessment"
+        jcr:uuid="eaa305e2-0a1b-4b44-963e-32a388f0bf40"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image_copy
+                jcr:created="{Date}2019-05-01T19:16:31.353+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T19:16:44.603+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="portfolio.png">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image_copy>
+            <text_2028033295
+                jcr:created="{Date}2019-05-21T10:43:46.149+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-28T13:17:53.242+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>What is a Portfolio? A portfolio is a purposeful collection of selective significant samples of student work accompanied by clear criteria for performance which evidence student effort, progress or achievement. A portfolio is different from a folder in that it includes: o Explicit guidelines for selection o Comprehensible criteria o Clear objectives o Selective and significant pieces o Students’ self-reflection pieces o Evidence of student participation in selection of content A portfolio can exhibit the student' s, progress, and achievement in several areas. The list below illustrates some of the items which might be housed in a student’s foreign language portfolio to give a complete view of what the student knows and is able to do.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>A portfolio is a grouping of financial assets such as stocks, bonds, commodities, currencies and cash equivalents, as well as their fund&amp;nbsp;counterparts, including mutual, exchange-traded and closed funds. A portfolio can also consist of non publicly tradable securities, like real estate, art, and private investments. Portfolios are held directly by investors and/or managed by financial professionals and money managers. Investors should construct an investment portfolio in accordance with their risk tolerance&amp;nbsp;and their investing objectives.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_2028033295>
+            <text
+                jcr:created="{Date}2019-05-21T10:43:32.695+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-21T10:44:33.573+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>An investment portfolio can be thought of as a pie that is divided into pieces of varying sizes, representing a variety of asset classes and/or types of investments to accomplish an appropriate risk-return portfolio allocation. Many different types of securities can be used to build a diversified portfolio, but stocks, bonds and cash are generally considered a portfolio's core building blocks. Other potential asset classes include, but aren't limited to, real estate, gold and currency.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Similar to risk tolerance, investors should consider how long they have to invest when building a portfolio. Investors should generally be moving to a more conservative asset allocation as the goal date approaches, to protect the portfolio's principal that has been built up to that point.&lt;/p>&#xa;&lt;p>For example, an investor saving for retirement may be planning to leave the workforce in five years. Despite the investor's comfort level investing in stocks and other risky securities, the investor&amp;nbsp;may want to invest a larger portion of the portfolio's balance in more conservative assets such as bonds and cash, to help protect what has already been saved. Conversely, an individual just entering the workforce may want to invest their&amp;nbsp;entire portfolio in stocks, since they&amp;nbsp;may have decades to invest, and the ability to ride out some of the market's short-term volatility.&lt;/p>&#xa;&lt;p>Both risk tolerance and time horizon should be considered when choosing investments to fill out a portfolio.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+            <image
+                jcr:created="{Date}2019-05-21T10:45:40.705+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-21T10:45:51.787+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="portfolio.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="6"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

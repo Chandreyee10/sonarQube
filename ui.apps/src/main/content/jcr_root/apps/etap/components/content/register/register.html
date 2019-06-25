@@ -1,0 +1,42 @@
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.all @ categories='etap.boot.foundation, etap.register'}" />
+<br/>
+<div class="Header"
+							data-sly-resource="${'header1' @ resourceType='etap/components/structure/header1'}"></div>
+<div class="wrapper row3">
+	<main class="hoc container clear"> 
+		<main class="hoc clear">
+            <table width="100%">
+                <tr>
+                    <td width="80%"><h2>Register User</h2></td>
+                    <td width="20%" style="text-align:right"><a href="LoginPage.html">Back to Login</a></td>
+                </tr> 
+            </table>
+            <hr/>
+            <form>
+              <div class="form-group">
+                <label for="inputUsername">Username:</label>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+              </div>
+              <div class="form-group">
+                <label for="inputPassword">Password:</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="inputFirstName">First Name:</label>
+				<input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <label for="inputLastName">Last Name:</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+              </div>
+              <button class="btn btn-primary" id="registerButton">Register</button>
+            </form>
+
+            <div id="info"></div>
+         </main>
+    </main>
+</div>
+<div class="footer"
+							data-sly-resource="${'footer1' @ resourceType='etap/components/structure/footer1'}"></div>

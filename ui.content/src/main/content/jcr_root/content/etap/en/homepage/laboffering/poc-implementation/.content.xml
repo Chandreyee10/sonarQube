@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-20T11:31:13.332+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="POC implementation"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text_585277777
+                jcr:created="{Date}2019-05-20T11:26:17.572+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T11:29:09.311+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="etap/components/content/text"
+                text="&lt;p>1.&amp;nbsp;Duration of the project:&amp;nbsp;Short-term or long-term – long-term projects are good candidates for automation&lt;/p>&#xa;&lt;p>2.&amp;nbsp;How much regression is done in each testing cycle?&amp;nbsp;–&amp;nbsp;projects that have repetitive and lengthy regression tests as automation reduces the overall testing time and ensures complete coverage.&lt;/p>&#xa;&lt;p>3.&amp;nbsp;Stability of the application:&amp;nbsp;Application that is not susceptible to frequent changes should be considered for automation. The product which is not stable, where GUI/Functionality keeps changing, elements or its XPath on page keep changing should not be automated until stable.&lt;/p>&#xa;&lt;p>4.&amp;nbsp;Is the project data secure and does testing it requires some complicated procedures?&amp;nbsp;–&amp;nbsp;In this case, it is best to go for manual testing.&lt;/p>&#xa;&lt;p>5.&amp;nbsp;Does the&amp;nbsp;organization have a budget for automation? –&amp;nbsp;Automation will add to additional expenditure for the organization like automation tool cost, resource cost, a time required for framework development and writing/maintaining automation test scripts.&lt;/p>&#xa;&lt;p>With automation, missing tests or taking some test results for granted will never happen. It ensures 100% coverage of given module each and every time the same is tested. Automation will also help perform the same test multiple times on multiple browsers and platforms.&lt;/p>&#xa;&lt;p>The following figure will help understand the process of automation testing&lt;/p>&#xa;&lt;p>&lt;a href=&quot;https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2015/09/Automation-Testing-Process.jpg&quot;>&lt;img src=&quot;https://cdn.softwaretestinghelp.com/wp-content/qa/uploads/2015/09/Automation-Testing-Process.jpg&quot; alt=&quot;Automation Testing Process&quot; width=&quot;472&quot; height=&quot;NaN&quot;>&lt;/a>&lt;/p>&#xa;&lt;p>From the technical testing point of view, the&amp;nbsp;QA team needs to understand&amp;nbsp;the following aspects about their automation tool:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>Platform and OS testing matrix&lt;/li>&#xa;&lt;li>Data-driven capability&lt;/li>&#xa;&lt;li>Reporting capability and report portability&lt;/li>&#xa;&lt;li>Easy debugging and logging&lt;/li>&#xa;&lt;li>Version control supported&lt;/li>&#xa;&lt;li>Extensible &amp;amp; Customizable (able to integrate with other tools like Ant, TestNG)&lt;/li>&#xa;&lt;li>Continuous Integration.&lt;/li>&#xa;&lt;li>Email Notifications (Custom email message received if tests are passed successfully/ failed/or any network failure)&lt;/li>&#xa;&lt;li>If cross-browser testing and multiple platforms testing are required then distributed testing environment is supported or not.&lt;/li>&#xa;&lt;/ol>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+            </text_585277777>
+            <image
+                jcr:created="{Date}2019-05-01T19:33:54.223+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T19:34:06.087+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="poc implementation.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-01T19:34:14.009+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T19:49:26.997+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;ol>&#xa;&lt;li>Tools meet the project requirements– Work out further details. Such as cost of implementation – negotiate prices is necessary, finalize license fees, training &amp;amp; support costs, consultation, and implementation expenditures etc. In case of open source, tools determine the maturity of the tool, learning resources available, learning curve, support available etc. For both licensed and open source tools, maintenance costs have to be considered too. It has to be kept in mind that the benefits are substantial only over a long period of time.&lt;/li>&#xa;&lt;li>The tool does not meet the requirements&amp;nbsp;and has limitations – the tool is no longer considered.&lt;/li>&#xa;&lt;li>Tool partially meets the requirements&amp;nbsp;– revisit and check if another satisfies the requirements better&amp;nbsp;OR&amp;nbsp;if automation is totally out of the picture&amp;nbsp;OR&amp;nbsp;if there is any other workaround with the same tool.&lt;/li>&#xa;&lt;/ol>&#xa;&lt;ol style=&quot;border: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 3em; padding: 0px; list-style-position: initial; list-style-image: initial; color: rgb(58, 58, 58); font-family: &amp;quot;Work Sans&amp;quot;, sans-serif; font-size: 15px;&quot;>&#xa;&lt;li style=&quot;border: 0px; margin: 0px; padding: 0px;&quot;>&lt;p style=&quot;border: 0px; margin-bottom: 1.4em; padding: 0px; text-align: start;&quot;>Following scripting techniques can be used:&lt;/p>&#xa;&lt;ul style=&quot;border: 0px; margin-right: 0px; margin-bottom: 1.5em; margin-left: 3em; padding: 0px; list-style: disc;&quot;>&#xa;&lt;li style=&quot;border: 0px; margin: 0px; padding: 0px;&quot;>Linear&lt;/li>&#xa;&lt;li style=&quot;border: 0px; margin: 0px; padding: 0px;&quot;>Hybrid&lt;/li>&#xa;&lt;li style=&quot;border: 0px; margin: 0px; padding: 0px;&quot;>Data-driven&lt;/li>&#xa;&lt;li style=&quot;border: 0px; margin: 0px; padding: 0px;&quot;>Keyword driven and&lt;/li>&#xa;&lt;li style=&quot;border: 0px; margin: 0px; padding: 0px;&quot;>Structured&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;/ol>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

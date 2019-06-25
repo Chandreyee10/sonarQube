@@ -1,0 +1,19 @@
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.all @ categories='etap.card'}" />
+
+<a href="${properties.linkURL @ extension = 'html'}" role="button">
+<div class="container">
+<div id="card"  >
+    <div  class="img" style="background-image:url('${properties.fileReference @ context='styleString'}'); background-size: contain; background-repeat:no-repeat;  width:${properties.width @context='styleToken'}px; height:${properties.height @context='styleToken'}px">
+
+    </div>
+
+    <div class="content" style="width:${properties.width @context='styleToken'}px;">
+    	<p style=" word-wrap: break-word;">${properties.description || 'Enter description'}</p>
+    </div>
+</div>
+</div>
+</a>
+
+

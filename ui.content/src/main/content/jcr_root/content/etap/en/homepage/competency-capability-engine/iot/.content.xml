@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-24T10:06:34.905+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="IOT"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image
+                jcr:created="{Date}2019-05-01T20:09:43.569+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:09:53.814+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="iot.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="5"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text_841363075
+                jcr:created="{Date}2019-05-01T20:16:46.461+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:17:02.985+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;h3>Benefits&amp;nbsp;of IoT&lt;/h3>&#xa;&lt;p>The internet of things offers a number of benefits to organizations, enabling them to:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>monitor their overall business processes;&lt;/li>&#xa;&lt;li>improve the customer experience;&lt;/li>&#xa;&lt;li>save time and money;&lt;/li>&#xa;&lt;li>enhance employee productivity;&lt;/li>&#xa;&lt;li>integrate and adapt business models;&lt;/li>&#xa;&lt;li>make better business decisions; and&lt;/li>&#xa;&lt;li>generate more revenue.&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="6"/>
+                </cq:responsive>
+            </text_841363075>
+            <title
+                jcr:created="{Date}2019-05-20T10:27:30.524+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T13:03:56.535+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="How it works ?"
+                sling:resourceType="foundation/components/title"/>
+            <text_1762468975
+                jcr:created="{Date}2019-05-20T10:27:56.416+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:04:19.946+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p style=&quot;margin: 1.5em 0.0px; font-size: 18.0px; line-height: 1.67em; color: rgb(108,108,108); font-family: Arial , sans-serif;&quot;>An IoT ecosystem consists of web-enabled smart devices that use embedded processors, sensors and communication hardware to collect, send and act on data they acquire from their environments.&amp;nbsp;&lt;a style=&quot;color: rgb(167,211,35);&quot;>IoT devices&lt;/a>&amp;nbsp;share the sensor data they collect by connecting to an IoT gateway or&amp;nbsp;other edge device&amp;nbsp;where data is either sent to the cloud to be analyzed or analyzed locally. Sometimes, these devices communicate with other related devices and act on the information they get from one another. The devices do most of the work without human intervention, although people can interact with the devices -- for instance, to set them up, give them instructions or access the data.&lt;/p>&#xa;&lt;p style=&quot;margin: 1.5em 0.0px; font-size: 18.0px; line-height: 1.67em; color: rgb(108,108,108); font-family: Arial , sans-serif;&quot;>The connectivity, networking and communication protocols used with these web-enabled devices largely depend on the specific IoT applications deployed&amp;nbsp;.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <tabs
+                jcr:created="{Date}2019-05-22T12:55:15.999+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T13:00:31.038+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="etap/components/content/tabs"
+                activeItem="item_1">
+                <item_1
+                    cq:panelTitle="IOT at home"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Tab 1"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <text
+                        jcr:created="{Date}2019-05-22T12:56:13.884+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-05-22T12:59:02.192+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="etap/components/content/text"
+                        text="&lt;h2>&amp;nbsp;IoT in your home&lt;/h2>&#xa;&lt;p>Imagine you wake up at 7am every day to go to work. Your alarm clock does the job of waking you just fine. That is, until something goes wrong. Your train’s cancelled and you have to drive to work instead. The only problem is that it takes longer to drive, and you would have needed to get up at 6.45am to avoid being late. Oh, and it’s pouring with rain, so you’ll need to drive slower than usual. A connected or IoT-enabled alarm clock would reset itself based on all these factors, to ensure you got to work on time. It could recognize that your usual train is cancelled, calculate the driving distance and travel time for your alternative route to work, check the weather and factor in slower travelling speed because of heavy rain, and calculate when it needs to wake you up so you’re not late. If it’s super-smart, if might even sync with your IoT-enabled coffee maker, to ensure your morning caffeine’s ready to go when you get up.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </item_1>
+                <item_2
+                    cq:panelTitle="IOT at transport"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Tab 2"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <text
+                        jcr:created="{Date}2019-05-22T12:57:32.999+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-05-22T12:58:50.309+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="etap/components/content/text"
+                        text="&lt;h2>&amp;nbsp;IoT in transport&lt;/h2>&#xa;&lt;p>Having been woken by your smart alarm, you’re now driving to work. On comes the engine light. You’d rather not head straight to the garage, but what if it’s something urgent? In a connected car, the sensor that triggered the check engine light would communicate with others in the car. A component called the diagnostic bus collects data from these sensors and passes it to a gateway in the car, which sends the most relevant information to the manufacturer’s platform. The manufacturer can use data from the car to offer you an appointment to get the part fixed, send you directions to the nearest dealer, and make sure the correct replacement part is ordered so it’s ready for you when you show up.&lt;/p>&#xa;"
+                        textIsRich="true"/>
+                </item_2>
+            </tabs>
+            <text_1185084032_copy
+                jcr:created="{Date}2019-05-22T10:09:53.022+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:04:53.306+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="etap/components/content/text"
+                text="&lt;p>&lt;b>In the Internet of Things, all the things that are being connected to the internet can be put into three categories:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="9"/>
+                </cq:responsive>
+            </text_1185084032_copy>
+            <text_1185084032_copy_904691279
+                jcr:created="{Date}2019-05-22T10:09:53.022+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T12:52:51.345+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="etap/components/content/text"
+                text="&lt;p>&lt;b>&lt;i>1. Collecting and Sending Information&lt;/i>&lt;/b>&lt;/p>&#xa;&lt;p>This means sensors. Sensors could be temperature sensors, motion sensors, moisture sensors, air quality sensors, light sensors, you name it. These sensors, along with a connection, allow us to automatically collect information&amp;nbsp;from the environment which, in turn, allows us to make more intelligent decisions.&amp;nbsp; &amp;nbsp;&lt;i>&lt;/i>&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="9"/>
+                </cq:responsive>
+            </text_1185084032_copy_904691279>
+            <text_1185084032_copy_1386091161
+                jcr:created="{Date}2019-05-22T10:09:53.022+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T12:52:11.932+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="etap/components/content/text"
+                text="&lt;p>&lt;b>&lt;i>2. Receiving and Acting on Information&lt;/i>&lt;/b>&lt;/p>&#xa;&lt;p>We’re all very familiar with machines getting information and then acting. Your printer receives a document and it prints it. Your car receives a signal from your car keys and the doors open. The examples are endless.&lt;/p>&#xa;&lt;p>Whether it’s a simple as sending the command “turn on” or as complex&amp;nbsp;as sending a 3D model to a 3D printer, we know that we can tell machines what to do from far away. So what?&lt;/p>&#xa;&lt;p>&lt;b>&lt;i>The real power of the Internet of Things arises when things can do both of the above. Things that collect information and send it, but also receive information and act on it.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/i>&lt;/b>&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="9"/>
+                </cq:responsive>
+            </text_1185084032_copy_1386091161>
+            <text_1185084032_copy_870902099
+                jcr:created="{Date}2019-05-22T10:09:53.022+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T12:51:08.489+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="etap/components/content/text"
+                text="&lt;p>&lt;b>&lt;i>&amp;nbsp;3. Doing Both&lt;/i>&lt;/b>&lt;/p>&#xa;&lt;p>Let’s quickly go back to the farming example. The sensors can collect&amp;nbsp;information about the soil moisture to tell the farmer how much to water the crops, but you don’t actually need the farmer. Instead, the irrigation system can automatically turn on as needed, based on how much moisture is in the soil.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="9"/>
+                </cq:responsive>
+            </text_1185084032_copy_870902099>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-24T09:44:40.782+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-05-28T13:30:03.088+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Automation"
+        jcr:uuid="767e4914-ffaf-473f-aa02-f59e2377b9dc"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image_1318105650
+                jcr:created="{Date}2019-05-20T12:02:59.384+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T12:03:06.970+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="automation.jfif">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="5"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image_1318105650>
+            <text_651856622
+                jcr:created="{Date}2019-05-20T12:03:46.743+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T12:05:05.552+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Here is the types of industries using automation&lt;/p>&#xa;&lt;p>Automation provides benefits to virtually all of industry. Here are some examples:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&amp;nbsp;&lt;b>Manufacturing&lt;/b>, including food and pharmaceutical, chemical and petroleum, pulp and paper&lt;/li>&#xa;&lt;li>&amp;nbsp;&lt;b>Transportation&lt;/b>, including automotive, aerospace, and rail&lt;/li>&#xa;&lt;li>&amp;nbsp;&lt;b>Utilities&lt;/b>, including water and wastewater, oil and gas, electric power, and telecommunications&lt;/li>&#xa;&lt;li>&amp;nbsp;&lt;b>Defense&lt;/b>&lt;/li>&#xa;&lt;li>&amp;nbsp;&lt;b>Facility operations&lt;/b>, including security, environmental control, energy management, safety, and other building automation&lt;/li>&#xa;&lt;li>And&amp;nbsp;&lt;b>many others.&lt;/b>&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        offset="6"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_651856622>
+            <table
+                jcr:created="{Date}2019-05-24T09:31:53.283+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T09:44:19.338+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/table"
+                tableData="&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;1&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td>&amp;nbsp;&lt;/td>&#xa;&lt;td>&lt;p style=&quot;text-align: center;&quot;>Feature Group - 1&amp;nbsp; &amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>Custom test automation&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;GUI&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p>&#xa;&lt;/td>&#xa;&lt;td>&lt;p style=&quot;text-align: center;&quot;>Feature Group - 2&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>Automated report generation&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>&amp;amp; API's&lt;/p>&#xa;&lt;/td>&#xa;&lt;td>&lt;p style=&quot;text-align: center;&quot;>Feature Group - 3&amp;nbsp;&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>Database connectivity and&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>automation&lt;/p>&#xa;&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td style=&quot;text-align: center;&quot;>Cumulative Investment(hrs)&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>&amp;nbsp; 2500&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>200&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>675&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td style=&quot;text-align: center;&quot;>Cost of Investment(avg - 50 USD/hr)&amp;nbsp;&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>USD 1,25,000&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>USD 10,000&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>USD 33,750&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td style=&quot;text-align: center;&quot;>Time saving per instance of usage&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>6&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>2&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>1&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;p style=&quot;text-align: center;&quot;>cumulative savings for 2500 instances&lt;/p>&#xa;&lt;p style=&quot;text-align: center;&quot;>of usage across multiple projects&lt;/p>&#xa;&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>15,000&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>5,000&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>2,500&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td style=&quot;text-align: center;&quot;>cumulative cost savings&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>USD 1125000&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>USD 375000&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>USD 1875000&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td style=&quot;text-align: center;&quot;>ROI&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>800%&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>365%&lt;/td>&#xa;&lt;td style=&quot;text-align: center;&quot;>455%&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"
+                textIsRich="true"/>
+            <text_791327655
+                jcr:created="{Date}2019-05-20T11:53:45.999+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T09:44:40.772+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Why is the automation professional so important?&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Think about the cell phone and computer you use every day to do your job. Think about the car you drive to take to work. Think about the food you eat; water you drink; clothes you wear; and appliances you use to store, prepare, and clean them. Think about the television you watch, video games you play, or music system you listen to. Think about the buildings you visit. Think about any modern convenience or necessity. Just about anything you can think of is the result of complex processes. Without talented individuals to design, build, improve, and maintain these processes, these technological advances would never have occurred and future innovations would be impossible. Without automation professionals, our world and our future would be very different.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2019-05-01T19:35:28.293+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T19:37:26.863+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="download.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <text
+                jcr:created="{Date}2019-05-01T19:37:42.562+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-20T12:00:21.868+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Think about the cell phone and computer you use every day to do your job. Think about the car you drive to take to work. Think about the food you eat; water you drink; clothes you wear; and appliances you use to store, prepare, and clean them. Think about the television you watch, video games you play, or music system you listen to. Think about the buildings you visit. Think about any modern convenience or necessity. Just about anything you can think of is the result of complex processes. Without talented individuals to design, build, improve, and maintain these processes, these technological advances would never have occurred and future innovations would be impossible. Without automation professionals, our world and our future would be very different.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Automation professionals are responsible for solving complex problems in many vital aspects of industry and its processes. The work of automation professionals is critically important to the preservation of the health, safety, and welfare of the public and to the sustainability and enhancement of our quality of life.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+        </responsivegrid>
+    </jcr:content>
+</jcr:root>

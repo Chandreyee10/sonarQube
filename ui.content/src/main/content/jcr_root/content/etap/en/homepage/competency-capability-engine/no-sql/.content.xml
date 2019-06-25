@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-24T10:47:33.655+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/etap/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="No SQL"
+        sling:resourceType="etap/components/structure/contentpage">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <responsivegrid
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <text
+                jcr:created="{Date}2019-05-01T20:13:40.468+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:29:32.121+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>Early NoSQL databases for web and cloud applications tended to focus on very specific characteristics of data management. The ability to process very large volumes of data and quickly distribute that data &amp;nbsp;across computing clusters were desirable traits in web and cloud design. Developers who implemented cloud and web systems also looked to create flexible data schema -- or no schema at all -- to better enable fast changes to applications that were continually updated.&lt;/p>&#xa;&lt;p>Key-value stores, or key-value databases, implement a simple data model that pairs a unique key with an associated value. Because this model is simple, it can lead to the development of key-value databases, which are extremely performant and highly scalable for session management and caching in web applications. Implementations differ in the way they are oriented to work with RAM, solid-state drives or disk drives. Examples include Aerospike, Berkeley DB, MemchacheDB, Redis and Riak.&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text>
+            <image
+                jcr:created="{Date}2019-05-01T20:11:51.092+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-01T20:12:03.660+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="no sql.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="2"
+                        width="6"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image>
+            <colctrl
+                jcr:created="{Date}2019-05-22T11:09:43.667+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T11:09:43.667+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="start"
+                layout="2;cq-colctrl-lt0"/>
+            <col_break15585035836750
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="break"/>
+            <col_end15585035836751
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys/colctrl"
+                controlType="end"/>
+            <text_454651441
+                jcr:created="{Date}2019-05-22T11:14:40.059+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:20:27.620+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/text"
+                text="&lt;h3>NoSQL vs. RDBMS&lt;br>&#xa;&lt;/h3>&#xa;&lt;ul>&#xa;&lt;li style=&quot;text-align: left;&quot;>&lt;i>The NoSQL term can be applied to some databases that predated the&amp;nbsp;&lt;a href=&quot;https://searchdatamanagement.techtarget.com/definition/RDBMS-relational-database-management-system&quot;>relational database management system&lt;/a>, but it more commonly refers to the databases built in the early 2000s for the purpose of large-scale database clustering in cloud and web applications. In these applications, requirements for performance and scalability outweighed the need for the immediate, rigid data consistency that the RDBMS provided to transactional enterprise applications.&lt;/i>&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>&lt;i>Notably, the NoSQL systems were not required to follow an established relational schema. Large-scale web organizations such as Google and Amazon used NoSQL databases to focus on narrow operational goals and employ relational databases as adjuncts where high-grade&amp;nbsp;&lt;a href=&quot;https://searchsqlserver.techtarget.com/definition/ACID&quot;>data consistency&lt;/a>&amp;nbsp;is necessary.&lt;/i>&lt;/li>&#xa;&lt;li style=&quot;text-align: left;&quot;>&lt;i>Early NoSQL databases for web and cloud applications tended to focus on very specific characteristics of data management. The ability to process very large volumes of data and quickly distribute that data &amp;nbsp;across computing clusters were desirable traits in web and cloud design. Developers who implemented cloud and web systems also looked to create flexible data schema -- or no schema at all -- to better enable fast changes to applications that were continually updated.&amp;nbsp;&lt;/i>&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <text_1786886783
+                jcr:created="{Date}2019-05-22T11:27:26.729+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T14:17:42.679+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="etap/components/content/text"
+                text="&lt;h2>Why should you use NoSQL database?&lt;/h2>&#xa;&lt;p> &lt;/p>&#xa;&lt;p>&lt;i>It’s getting popularity by allowing you to store different data types together and you can easily scale by spreading around multiple servers.&lt;/i>&lt;/p>&#xa;&lt;p>&lt;i>If you are in need of developing an application within a speculated time, then you can go for NoSQL which will speed up your performance with its rapid development phase.&lt;/i>&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="11"/>
+                </cq:responsive>
+            </text_1786886783>
+            <image_903395241
+                jcr:created="{Date}2019-05-24T10:23:41.938+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-24T10:24:00.211+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"
+                fileName="nosql1.png">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        width="5"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+                <file/>
+            </image_903395241>
+            <text_1385804258
+                jcr:created="{Date}2019-05-22T11:28:01.857+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-05-22T14:20:23.456+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="etap/components/content/text"
+                text="&lt;h2 style=&quot;margin-left: 40.0px;&quot;>Some Prominent NoSQL Databases&lt;br>&#xa;&lt;/h2>&#xa;&lt;p>MongoDB The most popular NoSQL database, an open source that provides greater customer service.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>With enhanced Dynamic schema you can improve your data without affecting the existing data.&lt;/li>&#xa;&lt;li>Provides excellent scalability and high performance.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Apache CouchDB a database which makes the perfect utilization of JSON and JavaScript for various database operations.&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Will allow you to access your databases through the web browser.&lt;/li>&#xa;&lt;li>More flexible and easy replication.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Oracle gives a recent entry to NoSQL.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>In most cases, All the businesses will lean on both databases. NoSQL database might have high popularity due to its high scalability and speed, but still, there would be a highly inescapable situation for businesses to use SQL database.&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="7"/>
+                    <phone
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                    <tablet
+                        jcr:primaryType="nt:unstructured"
+                        width="12"/>
+                </cq:responsive>
+            </text_1385804258>
+        </responsivegrid>
+        <title
+            jcr:lastModified="{Date}2019-05-22T11:14:13.872+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="No SQL (Not Only SQL database)"
+            sling:resourceType="etap/components/structure/title"/>
+    </jcr:content>
+</jcr:root>
